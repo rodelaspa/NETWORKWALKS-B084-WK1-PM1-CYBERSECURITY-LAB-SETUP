@@ -83,6 +83,8 @@ A dedicated NAT Network was created in VirtualBox under **Tools** > **Network** 
 * **DHCP:** Enabled[cite: 28]
 * **IPv6:** Disabled[cite: 28]
 
+<img width="1266" height="1021" alt="image" src="https://github.com/user-attachments/assets/9dd429a2-e3d5-4f53-a897-77ab86f797dd" />
+
 > A NAT Network was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
 ### Step 4. Import Kali Linux
@@ -95,6 +97,10 @@ The Kali Linux virtual machine was imported into VirtualBox[cite: 25, 27, 29].
 * **Shared Folders:** Configured host `/downloads` folder mapping with Full Access[cite: 25, 32].
 * **Clipboard / Drag & Drop:** Enabled Bidirectional[cite: 25].
 
+<img width="961" height="568" alt="image" src="https://github.com/user-attachments/assets/2e75211c-af1c-4a33-a869-5096d42c81c0" />
+<img width="944" height="553" alt="image" src="https://github.com/user-attachments/assets/b4408f62-d754-4bd3-ac3f-2456ff67dc32" />
+<img width="1265" height="869" alt="image" src="https://github.com/user-attachments/assets/bc4206ab-8eb9-4751-9947-aab9c9bdde83" />
+
 ### Step 5. Configure the Kali Linux Network
 The network connection inside Kali Linux was configured with a static IPv4 address[cite: 25, 27, 30]:
 * **IP Address:** `10.0.0.2`[cite: 25, 30]
@@ -102,9 +108,14 @@ The network connection inside Kali Linux was configured with a static IPv4 addre
 * **Gateway:** `10.0.0.1`[cite: 30]
 * **DNS:** `8.8.8.8`[cite: 30]
 
+<img width="1262" height="1021" alt="image" src="https://github.com/user-attachments/assets/4cfc878c-4716-49be-aaf9-1c0b94cdaeef" />
+<img width="1271" height="1029" alt="image" src="https://github.com/user-attachments/assets/be45252a-f0b4-466a-85c7-4e0ac35ce9bf" />
+
 ### Step 6. Create a Clean VM Snapshot
 After completing the initial setup, a VirtualBox snapshot was created:
 * **Snapshot Name:** `Clean Kali - Network Setup`[cite: 27, 33]
+
+<img width="1268" height="1021" alt="image" src="https://github.com/user-attachments/assets/c0d27d36-6aa0-4822-bc3d-20d83f903d87" />
 
 ---
 
