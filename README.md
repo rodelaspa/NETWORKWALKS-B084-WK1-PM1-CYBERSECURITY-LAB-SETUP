@@ -97,10 +97,6 @@ The Kali Linux virtual machine was imported into VirtualBox[cite: 25, 27, 29].
 * **Shared Folders:** Configured host `/downloads` folder mapping with Full Access[cite: 25, 32].
 * **Clipboard / Drag & Drop:** Enabled Bidirectional[cite: 25].
 
-<img width="961" height="568" alt="image" src="https://github.com/user-attachments/assets/2e75211c-af1c-4a33-a869-5096d42c81c0" />
-<img width="944" height="553" alt="image" src="https://github.com/user-attachments/assets/b4408f62-d754-4bd3-ac3f-2456ff67dc32" />
-<img width="1265" height="869" alt="image" src="https://github.com/user-attachments/assets/bc4206ab-8eb9-4751-9947-aab9c9bdde83" />
-
 ### Step 5. Configure the Kali Linux Network
 The network connection inside Kali Linux was configured with a static IPv4 address[cite: 25, 27, 30]:
 * **IP Address:** `10.0.0.2`[cite: 25, 30]
